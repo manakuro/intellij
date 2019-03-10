@@ -1,0 +1,14 @@
+<templateSet group="Ruby">
+  <template name="def" value="def $CLASS_METHOD_NAME$&#10;  $END$&#10;end" description="def" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY_CODE" value="true" />
+    </context>
+  </template>
+  <template name="class" value="class $CLASS_NAME$&#10;  $END$&#10;end" description="class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>
