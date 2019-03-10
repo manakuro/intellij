@@ -1,2 +1,0 @@
-# intellij
-Intellij Config Repository
