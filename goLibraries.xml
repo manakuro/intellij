@@ -3,6 +3,7 @@
     <option name="urls">
       <list>
         <option value="file://$USER_HOME$/.go" />
+        <option value="file://$USER_HOME$/workspace/golang" />
       </list>
     </option>
   </component>
